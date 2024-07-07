@@ -1,0 +1,41 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.landing-header {
+  margin-bottom: 20px;
+}
+
+.landing-header h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.landing-header p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.landing-main .get-started-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #007bff;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.landing-main .get-started-button:hover {
+  background-color: #007bff;
+  color: white;
+}
